@@ -55,7 +55,24 @@ button {
   justify-content: center;
   align-items: center;
 }
-
+.unorderedList li{
+  margin-top: 1rem;
+}
+form{
+  margin-top: 3rem;
+}
+form input{
+  padding: 1rem 0;
+  border-radius: 20px;
+  margin-right: 0;
+  font-size: 1em;
+  text-align: center;
+  border: solid rgba(0, 0, 0, 0.473);
+}
+#addButton{
+  border-radius: 20px;
+  font-weight: 500;
+}
 @media screen and (max-width: 599px) {
   .question {
     width: 25rem;
